@@ -1,0 +1,58 @@
+---
+title: "Abstract Template"
+author: "Ashley Akerman"
+date: '`r format(Sys.time(), "%d %B %Y")`'
+output: 
+  word_document:
+    toc: false
+---
+
+<!-- If you open your own rmarkdown document in your system, with a default output format set as word_document, you will be able to save it to an appropriate working directory. Then, once opened, you can copy and paste this text to the new rmarkdown document and save it as 'Abstract Template'. -->
+
+<!-- When knitted, this file will save a template document to your working directory and open the word document. You then need to change the formatting of the document to fit your preference. For me, I changed the styles to the built in 'Abstract' style, made sure that all of the text was formatted similarly, and included continuous line numbers.  -->
+
+<!-- Then, you need to save the new template as a new file with a new name. For instance, I have called it Conference_Abstract_Template for simplicity. Then, copy and paste the location and name of this template into your future rmarkdown documents which are used for conference abstracts. -->
+
+<!-- Alternatively, and while learning, you could save the Conference_Abstract_Template.docx I have created to your own system, and use this as the template you write to until you are more confident developing your own. -->
+
+```{r setup, include = FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r library_import, include = FALSE, cache = FALSE, echo = FALSE}
+
+library(rmarkdown)
+
+```
+  
+<br>
+  
+**Authors**: Author One ^1^, Author Two ^2^, Author Three ^3^
+  
+<br>
+  
+
+**Affiliations**:  <br>  
+^1^ Affiliation 1  <br>  
+^2^ Affiliation 2  <br>  
+^3^ Affiliation 3  <br>  
+  
+<br>
+
+
+**Presenting author information**  <br>  
+Name: Author One  <br>  
+Email: author_one@email.com  <br>  
+Affiliation details: Affiliation 1  <br>  
+  
+<br>
+
+
+**Introduction**  <br>  
+  
+**Methods**  <br>  
+  
+**Results**  <br>  
+  
+**Discussion**  <br>  
+  
